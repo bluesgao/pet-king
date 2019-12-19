@@ -1,0 +1,9 @@
+{
+    "navigationBarTitleText": "首页",
+    "navigationBarBackgroundColor": "white",
+    "navigationBarTextStyle": "black",
+    "usingComponents": {
+        "video-list": "/components/video-list/index",
+        "home-bar": "/components/home-bar/index"
+    }
+}
