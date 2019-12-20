@@ -1,0 +1,18 @@
+<view class='navbar {{parameter.class}}' style='height:{{navbarHeight}}rpx'>
+    <!-- 导航栏高度 -->
+    <view class='navbarH' style='height:{{navbarHeight}}rpx;'>
+        <!-- 带logo图标+搜索框 -->
+        <view class='navbarCon acea-row row-center-wrapper' wx:if='{{parameter.type==0}}'>
+            <view class='search acea-row row-middle' bindtap='doSearch'>
+                <text class='iconfont icon-xiazai5'></text>搜索</view>
+            <view class='logo'>
+                <image src='{{parameter.logoImage}}'></image>
+            </view>
+        </view>
+        <!-- 带title -->
+        <view class='navbarCon acea-row row-center-wrapper' wx:if='{{parameter.type==1}}'>
+            <view class='name {{parameter.color==true?"on":""}} line1'>{{parameter.title}}</view>
+        </view>
+    </view>
+</view>
+<view style='height:{{navbarHeight}}rpx'></view>

@@ -1,5 +1,6 @@
 <!--index.wxml-->
-<home-bar parameter='{{parameter}}' logoUrl="{{logoUrl}}"></home-bar>
+<nav-bar parameter='{{parameter}}' logoUrl="{{logoUrl}}"></nav-bar>
 <view class="container">
     <video-list videos="{{videos}}"></video-list>
+    <tab-bar></tab-bar>
 </view>

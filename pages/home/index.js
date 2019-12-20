@@ -5,8 +5,9 @@ const app = getApp()
 Page({
     data: {
         parameter: {
-            'navbar': '0',
-            'return': '0'
+            'type': '0',
+            'logoImage': '../../assets/image/logo.png',
+            'title': '戏精汪'
         },
         videos: [{
             "title": "你把爸爸1",
@@ -38,8 +39,6 @@ Page({
         }]
     },
     //事件处理函数
-    bindViewTap: function() {
-    },
-    onLoad: function() {
-    }
+    bindViewTap: function () { },
+    onLoad: function () { }
 })

@@ -1,5 +1,8 @@
 {
-    "usingComponents": {},
+    "usingComponents": {
+        "header": "../../components/navigator-bar/index"
+    },
+    "navigationStyle": "custom",
     "navigationBarTitleText": "个人中心",
     "navigationBarBackgroundColor": "white",
     "navigationBarTextStyle": "black"

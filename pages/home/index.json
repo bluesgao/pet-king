@@ -4,6 +4,7 @@
     "navigationBarTextStyle": "black",
     "usingComponents": {
         "video-list": "/components/video-list/index",
-        "home-bar": "/components/home-bar/index"
+        "nav-bar": "/components/nav-bar/index",
+        "tab-bar": "/components/tab-bar/index"
     }
 }

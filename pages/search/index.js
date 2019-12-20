@@ -1,19 +1,11 @@
-// pages/user/index.js
+// pages/search/index.js
 Page({
 
     /**
      * 页面的初始数据
      */
     data: {
-        header: {
-            homeCapsule: false,
-            title: '个人中心',
-            fontColor: "#000",
-            fontSize: '36rpx',
-            headerbg: '#fff',
-            hiddenBlock: false,
-            slot: false
-        }
+
     },
 
     /**
