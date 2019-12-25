@@ -4,6 +4,8 @@
     "navigationBarTextStyle": "black",
     "usingComponents": {
         "navBar": "/components/navBar/navBar",
+        "topBar": "/components/topBar/topBar",
+        "scrollBox": "/components/scrollBox/scrollBox",
         "videoItem":"/components/videoItem/videoItem"
     }
 }

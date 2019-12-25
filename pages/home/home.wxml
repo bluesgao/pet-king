@@ -1,6 +1,32 @@
 <!--index.wxml-->
 <view class="container">
-    <navBar parameter='{{parameter}}' logoUrl="{{logoUrl}}"></navBar>
-    <videoItem item='{{item}}' wx:for='{{videos}}' wx:key='{{index}}'></videoItem>
-    <tabBar></tabBar>
+    <!-- <block class="nav-wrap">
+        <navBar title='首页' background='#fff' back="{{false}}" home="{{false}}"></navBar>
+    </block> -->
+    <view class="top-wrap">
+        <topBar tab-data="{{categoryMenu}}" tab-cur="{{categoryCur}}" size="{{80}}" scroll="{{true}}"
+            bindchange="toggleCategory">
+        </topBar>
+    </view>
+
+    <swiper current="{{categoryCur}}" duration="{{duration}}" bindanimationfinish="swipeChange">
+        <swiper-item wx:for="{{categoryData}}" wx:key="{{index}}">
+            <scrollBox requesting="{{item.requesting}}" end="{{item.end}}" empty-show="{{item.emptyShow}}"
+                list-count="{{item.listData.length}}" has-top="{{true}}" refresh-size="{{80}}" bind:refresh="refresh"
+                bind:more="more">
+                <view class="cells">
+                    <!-- <view class="cell" wx:for="{{item.listData}}" wx:key="{{index}}">
+                        <view class="cell__hd">
+                            <image mode="aspectFill" src="{{item.images}}" alt="" />
+                        </view>
+                        <view class="cell__bd">
+                            <view class="name">{{item.title}}</view>
+                            <view class="des">{{item.description}}</view>
+                        </view>
+                    </view> -->
+                    <videoItem item='{{item}}' wx:for='{{videos}}' wx:key='{{index}}'></videoItem>
+                </view>
+            </scrollBox>
+        </swiper-item>
+    </swiper>
 </view>

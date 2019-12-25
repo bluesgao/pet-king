@@ -1,0 +1,9 @@
+<view class='seabox'>
+    <view class="seabox-bar {{searchflag?'start-search':''}}">
+        <icon type='search' size="32rpx"></icon>
+        <input type="text" bindinput="searchList" bindconfirm="endsearchList" bindfocus='getfocus' bindblur="blursearch"
+            confirm-type='search' value='{{searchstr}}' placeholder='请输入...' />
+        <icon bindtap='clearSearch' wx:if="{{searchflag}}" type='clear' size="28rpx"></icon>
+    </view>
+    <view wx:if="{{searchflag}}" bindtap='cancelSearch' class="activity-search">取消</view>
+</view>

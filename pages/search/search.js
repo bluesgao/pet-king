@@ -7,7 +7,70 @@ Page({
     data: {
 
     },
+    handlerGobackClick() {
+        wx.showModal({
+          title: '你点击了返回',
+          content: '是否确认放回',
+          success: e => {
+            if (e.confirm) {
+              const pages = getCurrentPages();
+              if (pages.length >= 2) {
+                wx.navigateBack({
+                  delta: 1
+                });
+              } else {
+                wx.navigateTo({
+                  url: '/pages/home/home'
+                });
+              }
+            }
+          }
+        });
+      },
+      handlerGohomeClick() {
+          //跳转首页，此处不能使用navigateTo
+          wx.switchTab({
+            url: '/pages/home/home'
+        });
+      },
 
+          //搜索框输入时触发
+    searchList(ev) {
+        let e = ev.detail;
+        console.info(e.detail.value, '模糊查询字段')
+        this.setData({
+            searchstr: e.detail.value
+        })
+
+        //跳转搜索页面
+        wx.navigateTo({
+            url: '/pages/search/search'
+          });
+    },
+    //搜索回调
+    endsearchList(e) {
+        console.log('搜索框回调函数')
+    },
+    // 取消搜索
+    cancelSearch() {
+        console.log('取消搜索回调函数')
+
+        this.setData({
+            searchstr: ''
+        })
+    },
+    //清空搜索框
+    clearSearch(e) {
+        console.log('清空搜索框回调函数')
+
+        this.setData({
+            searchstr: ''
+        })
+    },
+    getfocus(e){
+        console.log('获取焦点回调函数',e)
+
+    },
     /**
      * 生命周期函数--监听页面加载
      */

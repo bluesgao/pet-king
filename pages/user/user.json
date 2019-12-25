@@ -1,8 +1,7 @@
 {
     "usingComponents": {
-        "header": "../../components/navigatorBar/navigatorBar"
+        "navBar": "/components/navBar/navBar"
     },
-    "navigationStyle": "custom",
     "navigationBarTitleText": "个人中心",
     "navigationBarBackgroundColor": "white",
     "navigationBarTextStyle": "black"
