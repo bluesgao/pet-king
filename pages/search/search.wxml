@@ -1,6 +1,5 @@
 <view class='container'>
-    <navBar title='搜索' background='#fff' back="{{true}}" home="{{true}}" bindback="handlerGobackClick" bindhome="handlerGohomeClick"></navBar>
-    <searchBox id="SearchBar" searchstr="{{searchstr}}" bind:searchList="searchList" bind:endsearchList="endsearchList"
+    <searchBox searchstr="{{searchstr}}" bind:searchList="searchList" bind:endsearchList="endsearchList"
     bind:cancelsearch="cancelsearch" bind:activity_clear="activity_clear"></searchBox>
     <view class='main'>
         <view class='p'>搜索页面</view>

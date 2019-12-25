@@ -1,6 +1,8 @@
 {
   "usingComponents": {
-    "navBar": "/components/navBar/navBar",
     "searchBox": "/components/searchBox/searchBox"
-  }
+  },
+  "navigationBarTitleText": "搜索",
+  "navigationBarBackgroundColor": "white",
+  "navigationBarTextStyle": "black"
 }
