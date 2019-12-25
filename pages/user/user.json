@@ -4,6 +4,6 @@
     },
     "navigationStyle": "custom",
     "navigationBarTitleText": "个人中心",
-    "navigationBarBackgroundColor": "white",
+    "navigationBarBackgroundColor": "#80C7F6",
     "navigationBarTextStyle": "black"
 }
