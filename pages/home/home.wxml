@@ -1,6 +1,6 @@
 <!--index.wxml-->
-<nav-bar parameter='{{parameter}}' logoUrl="{{logoUrl}}"></nav-bar>
 <view class="container">
-    <video-list videos="{{videos}}"></video-list>
-    <tab-bar></tab-bar>
+    <navBar parameter='{{parameter}}' logoUrl="{{logoUrl}}"></navBar>
+    <videoItem item='{{item}}' wx:for='{{videos}}' wx:key='{{index}}'></videoItem>
+    <tabBar></tabBar>
 </view>

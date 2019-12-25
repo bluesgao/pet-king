@@ -5,21 +5,21 @@ Component({
         color: "#7A7E83",
         selectedColor: "#3cc51f",
         list: [{
-            pagePath: "/pages/home/index",
-            iconPath: "/assets/image/1-001.png",
-            selectedIconPath: "/assets/image/1-002.png",
+            pagePath: "/pages/home/home",
+            iconPath: "/assets/image/tab_home_normal.png",
+            selectedIconPath: "/assets/image/tab_home.png",
             text: "首页",
             isSpecial: false
         }, {
-            pagePath: "/pages/post/index",
+            pagePath: "/pages/post/post",
             iconPath: "/assets/image/icon_release.png",
             selectedIconPath: "/assets/image/icon_release.png",
             text: "",
             isSpecial: true
         }, {
-            pagePath: "/pages/user/index",
-                iconPath: "/assets/image/4-001.png",
-                selectedIconPath: "/assets/image/4-002.png",
+                pagePath: "/pages/user/user",
+                iconPath: "/assets/image/tab_profile_normal.png",
+                selectedIconPath: "/assets/image/tab_profile.png",
             text: "我的",
             isSpecial: false
         }],

@@ -1,7 +1,7 @@
 Component({
   data: {},
   properties: {
-    video: {
+    item: {
       type: Object,
       value: {},
     }

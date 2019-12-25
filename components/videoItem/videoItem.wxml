@@ -1,0 +1,29 @@
+<view class="item" hover-class='hover-class' data-item='{{item}}' catchtap="gotoDetail">
+    <view class="header">
+        <image class="avatar" mode='aspectFill' src="{{item.user.avatar}}"></image>
+        <text class="name">{{item.user.name}}</text>
+    </view>
+    <view class="body">
+        <view class="title">{{item.title}}</view>
+        <video class="player" src="{{item.url}}"></video>
+    </view>
+    <view class="footer">
+        <view class="action">
+            <image src="{{item.isLike==0 ? '../../assets/image/zan_normal.png': '../../assets/image/zan_green.png'}} "></image>
+            <text>{{item.likeNum}}</text>
+        </view>
+        <!-- <view class="collect">
+        <image src="{{item.isCollect==0 ? '../../assets/image/collect.png': '../../assets/image/collect_un.png'}} ">
+        </image>
+        <text>{{item.collectNum}}</text>
+      </view> -->
+        <view class="action">
+            <image src="../../assets/image/comment.png"></image>
+            <text>{{item.commentNum}}</text>
+        </view>
+        <view class="action">
+            <image src="../../assets/image/share.png"></image>
+            <!-- <button data-item='{item}' plain='true' open-type='share' class='share'></button> -->
+        </view>
+    </view>
+</view>

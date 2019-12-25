@@ -3,8 +3,7 @@
     "navigationBarBackgroundColor": "white",
     "navigationBarTextStyle": "black",
     "usingComponents": {
-        "video-list": "/components/video-list/index",
-        "nav-bar": "/components/nav-bar/index",
-        "tab-bar": "/components/tab-bar/index"
+        "navBar": "/components/navBar/navBar",
+        "videoItem":"/components/videoItem/videoItem"
     }
 }
