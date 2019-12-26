@@ -36,16 +36,20 @@ Component({
         },
         //失去焦点
         blur() {
-            console.log('失去焦点')
+            console.info('失去焦点')
         },
         //搜索输入
         input(e) {
-            console.log('搜索输入',e)
+            console.info('搜索输入',e)
+            this.setData({
+                content: e.detail.value,
+            })
+            console.info('搜索输入 content', this.data.content)
             this.triggerEvent("searchList", e);
         },
         //查询
         confirm(e) {
-            console.log('查询', e)
+            console.info('查询', e)
             this.triggerEvent("endsearchList");
         },
         //清空搜索框
