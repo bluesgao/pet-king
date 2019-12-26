@@ -23,18 +23,13 @@
 }
 
 .search-bar-container-box icon{
-  margin: 20rpx;
+  margin: 10rpx;
+  size: 24rpx;
 
 }
 .search-bar-container-box input{
   height:60rpx;
   line-height:60rpx;
-  font-size:28rpx;
+  font-size:24rpx;
   width:100%;
-}
-
-.activity-search{
-  font-size: 28rpx;
-  width: 70rpx;
-  text-align: right;
 }
