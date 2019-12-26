@@ -1,5 +1,5 @@
 <view class='container'>
-    <navBar title='个人中心' background='#fff' back="{{false}}" home="{{false}}"></navBar>
+    <navBar title='个人中心' background='#e0fa4c' back="{{false}}" home="{{false}}"></navBar>
     <view class='main'>
         <view class='p'>个人中心页面</view>
     </view>

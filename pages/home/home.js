@@ -113,7 +113,7 @@ Page({
 	data: {
         videos: [{
             "title": "你把爸爸1",
-            "url": "http://video.pearvideo.com/mp4/adshort/20181117/cont-1477753-13248875_adpkg-ad_hd.mp4",
+            //"url": "http://video.pearvideo.com/mp4/adshort/20181117/cont-1477753-13248875_adpkg-ad_hd.mp4",
             "isLike": 0,
             "likeNum": 11,
             "isCollect": 0,
@@ -126,7 +126,7 @@ Page({
             }
         }, {
                 "title": "你把爸爸1",
-                "url": "http://video.pearvideo.com/mp4/adshort/20181117/cont-1477753-13248875_adpkg-ad_hd.mp4",
+                //"url": "http://video.pearvideo.com/mp4/adshort/20181117/cont-1477753-13248875_adpkg-ad_hd.mp4",
                 "isLike": 0,
                 "likeNum": 11,
                 "isCollect": 0,
@@ -139,7 +139,7 @@ Page({
                 }
             }, {
                 "title": "你把爸爸1",
-                "url": "http://video.pearvideo.com/mp4/adshort/20181117/cont-1477753-13248875_adpkg-ad_hd.mp4",
+                //"url": "http://video.pearvideo.com/mp4/adshort/20181117/cont-1477753-13248875_adpkg-ad_hd.mp4",
                 "isLike": 0,
                 "likeNum": 11,
                 "isCollect": 0,
@@ -152,7 +152,7 @@ Page({
                 }
             },{
                 "title": "你把爸爸1",
-                "url": "http://video.pearvideo.com/mp4/adshort/20181117/cont-1477753-13248875_adpkg-ad_hd.mp4",
+                //"url": "http://video.pearvideo.com/mp4/adshort/20181117/cont-1477753-13248875_adpkg-ad_hd.mp4",
                 "isLike": 0,
                 "likeNum": 11,
                 "isCollect": 0,
@@ -165,7 +165,7 @@ Page({
                 }
             },{
                 "title": "你把爸爸1",
-                "url": "http://video.pearvideo.com/mp4/adshort/20181117/cont-1477753-13248875_adpkg-ad_hd.mp4",
+                //"url": "http://video.pearvideo.com/mp4/adshort/20181117/cont-1477753-13248875_adpkg-ad_hd.mp4",
                 "isLike": 0,
                 "likeNum": 11,
                 "isCollect": 0,
@@ -178,7 +178,7 @@ Page({
                 }
             },{
                 "title": "你把爸爸1",
-                "url": "http://video.pearvideo.com/mp4/adshort/20181117/cont-1477753-13248875_adpkg-ad_hd.mp4",
+                //"url": "http://video.pearvideo.com/mp4/adshort/20181117/cont-1477753-13248875_adpkg-ad_hd.mp4",
                 "isLike": 0,
                 "likeNum": 11,
                 "isCollect": 0,
@@ -191,7 +191,7 @@ Page({
                 }
             },{
                 "title": "你把爸爸1",
-                "url": "http://video.pearvideo.com/mp4/adshort/20181117/cont-1477753-13248875_adpkg-ad_hd.mp4",
+                //"url": "http://video.pearvideo.com/mp4/adshort/20181117/cont-1477753-13248875_adpkg-ad_hd.mp4",
                 "isLike": 0,
                 "likeNum": 11,
                 "isCollect": 0,
@@ -204,7 +204,7 @@ Page({
                 }
             },{
                 "title": "你把爸爸1",
-                "url": "http://video.pearvideo.com/mp4/adshort/20181117/cont-1477753-13248875_adpkg-ad_hd.mp4",
+                //"url": "http://video.pearvideo.com/mp4/adshort/20181117/cont-1477753-13248875_adpkg-ad_hd.mp4",
                 "isLike": 0,
                 "likeNum": 11,
                 "isCollect": 0,
@@ -217,7 +217,7 @@ Page({
                 }
             },{
                 "title": "你把爸爸1",
-                "url": "http://video.pearvideo.com/mp4/adshort/20181117/cont-1477753-13248875_adpkg-ad_hd.mp4",
+                //"url": "http://video.pearvideo.com/mp4/adshort/20181117/cont-1477753-13248875_adpkg-ad_hd.mp4",
                 "isLike": 0,
                 "likeNum": 11,
                 "isCollect": 0,
@@ -230,7 +230,7 @@ Page({
                 }
             },{
                 "title": "你把爸爸1",
-                "url": "http://video.pearvideo.com/mp4/adshort/20181117/cont-1477753-13248875_adpkg-ad_hd.mp4",
+                //"url": "http://video.pearvideo.com/mp4/adshort/20181117/cont-1477753-13248875_adpkg-ad_hd.mp4",
                 "isLike": 0,
                 "likeNum": 11,
                 "isCollect": 0,
@@ -243,7 +243,7 @@ Page({
                 }
             },{
                 "title": "你把爸爸1",
-                "url": "http://video.pearvideo.com/mp4/adshort/20181117/cont-1477753-13248875_adpkg-ad_hd.mp4",
+                //"url": "http://video.pearvideo.com/mp4/adshort/20181117/cont-1477753-13248875_adpkg-ad_hd.mp4",
                 "isLike": 0,
                 "likeNum": 11,
                 "isCollect": 0,
@@ -256,7 +256,7 @@ Page({
                 }
             },{
                 "title": "你把爸爸1",
-                "url": "http://video.pearvideo.com/mp4/adshort/20181117/cont-1477753-13248875_adpkg-ad_hd.mp4",
+                //"url": "http://video.pearvideo.com/mp4/adshort/20181117/cont-1477753-13248875_adpkg-ad_hd.mp4",
                 "isLike": 0,
                 "likeNum": 11,
                 "isCollect": 0,
@@ -269,7 +269,7 @@ Page({
                 }
             },{
                 "title": "你把爸爸1",
-                "url": "http://video.pearvideo.com/mp4/adshort/20181117/cont-1477753-13248875_adpkg-ad_hd.mp4",
+                //"url": "http://video.pearvideo.com/mp4/adshort/20181117/cont-1477753-13248875_adpkg-ad_hd.mp4",
                 "isLike": 0,
                 "likeNum": 11,
                 "isCollect": 0,
@@ -282,7 +282,7 @@ Page({
                 }
             },{
                 "title": "你把爸爸1",
-                "url": "http://video.pearvideo.com/mp4/adshort/20181117/cont-1477753-13248875_adpkg-ad_hd.mp4",
+                //"url": "http://video.pearvideo.com/mp4/adshort/20181117/cont-1477753-13248875_adpkg-ad_hd.mp4",
                 "isLike": 0,
                 "likeNum": 11,
                 "isCollect": 0,
@@ -295,7 +295,7 @@ Page({
                 }
             },{
                 "title": "你把爸爸1",
-                "url": "http://video.pearvideo.com/mp4/adshort/20181117/cont-1477753-13248875_adpkg-ad_hd.mp4",
+                //"url": "http://video.pearvideo.com/mp4/adshort/20181117/cont-1477753-13248875_adpkg-ad_hd.mp4",
                 "isLike": 0,
                 "likeNum": 11,
                 "isCollect": 0,
@@ -308,7 +308,7 @@ Page({
                 }
             },{
                 "title": "你把爸爸1",
-                "url": "http://video.pearvideo.com/mp4/adshort/20181117/cont-1477753-13248875_adpkg-ad_hd.mp4",
+                //"url": "http://video.pearvideo.com/mp4/adshort/20181117/cont-1477753-13248875_adpkg-ad_hd.mp4",
                 "isLike": 0,
                 "likeNum": 11,
                 "isCollect": 0,
@@ -321,7 +321,7 @@ Page({
                 }
             },{
                 "title": "你把爸爸1",
-                "url": "http://video.pearvideo.com/mp4/adshort/20181117/cont-1477753-13248875_adpkg-ad_hd.mp4",
+                //"url": "http://video.pearvideo.com/mp4/adshort/20181117/cont-1477753-13248875_adpkg-ad_hd.mp4",
                 "isLike": 0,
                 "likeNum": 11,
                 "isCollect": 0,
@@ -334,7 +334,7 @@ Page({
                 }
             },{
                 "title": "你把爸爸1",
-                "url": "http://video.pearvideo.com/mp4/adshort/20181117/cont-1477753-13248875_adpkg-ad_hd.mp4",
+                //"url": "http://video.pearvideo.com/mp4/adshort/20181117/cont-1477753-13248875_adpkg-ad_hd.mp4",
                 "isLike": 0,
                 "likeNum": 11,
                 "isCollect": 0,

@@ -1,42 +1,36 @@
 /*搜索 开始*/
-.seabox{
+.search-bar-container{
   width: calc( 100% - 0);
   background: #fff;
   height: 60rpx;
-  padding:20rpx 32rpx;
+  padding:20rpx 20rpx;
   display: flex;
   align-items: center;
   overflow: hidden;
 }
 .seabox-bar{
-    width: calc( 100% - 32rpx );
+    width: 100%;
     height: 60rpx;
     display: flex;
     align-items: center;
     border-radius: 30rpx;
     background: #F5F5F5;
-    padding-left: 32rpx;
 }
 
 /*开始搜索时*/
 .seabox-bar .start-search{
   width: calc( 100% - 102rpx );
 }
-/*开始搜索且有权限添加*/
-/* .tit_seabox_bar.start-search.tit_seabox_add{
-width:calc( 100% - 192rpx );
-} */
+
 .seabox-bar icon{
-  margin-right: 20rpx;
+  margin: 20rpx;
 
 }
-.seabox input{
+.search-bar-container input{
   height:60rpx;
   line-height:60rpx;
   font-size:28rpx;
   width:100%;
-  margin-right:32rpx;
-
 }
 
 .activity-search{

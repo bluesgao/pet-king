@@ -1,0 +1,15 @@
+<view class='search-bar-container'>
+    <view class="seabox-bar {{flag?'start-search':''}}">
+        <icon type='search' size="32rpx"></icon>
+        <input type="text"
+            bindinput="input"
+            bindconfirm="confirm"
+            bindfocus='focus'
+            bindblur="blur"
+            confirm-type='search'
+            value='{{content}}'
+            placeholder='请输入...' />
+        <icon bindtap='clear' type='clear' size="28rpx"></icon>
+    </view>
+    <!-- <view bindtap='cancelSearch' class="activity-search">取消</view> -->
+</view>

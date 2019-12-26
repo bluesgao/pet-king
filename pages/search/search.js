@@ -7,34 +7,27 @@ Page({
     data: {
 
     },
-    handlerGobackClick() {
-        wx.showModal({
-          title: '你点击了返回',
-          content: '是否确认放回',
-          success: e => {
-            if (e.confirm) {
-              const pages = getCurrentPages();
-              if (pages.length >= 2) {
-                wx.navigateBack({
-                  delta: 1
-                });
-              } else {
-                wx.navigateTo({
-                  url: '/pages/home/home'
-                });
-              }
-            }
-          }
-        });
-      },
-      handlerGohomeClick() {
-          //跳转首页，此处不能使用navigateTo
+    goBack() {
+        //返回上一页
+        const pages = getCurrentPages();
+        if (pages.length >= 2) {
+            wx.navigateBack({
+                delta: 1
+            });
+        } else {
           wx.switchTab({
+                url: '/pages/home/home'
+            });
+        }
+    },
+    goHome() {
+        //跳转首页，此处不能使用navigateTo
+        wx.switchTab({
             url: '/pages/home/home'
         });
-      },
+    },
 
-          //搜索框输入时触发
+    //搜索框输入时触发
     searchList(ev) {
         let e = ev.detail;
         console.info(e.detail.value, '模糊查询字段')
@@ -45,7 +38,7 @@ Page({
         //跳转搜索页面
         wx.navigateTo({
             url: '/pages/search/search'
-          });
+        });
     },
     //搜索回调
     endsearchList(e) {
@@ -67,8 +60,8 @@ Page({
             searchstr: ''
         })
     },
-    getfocus(e){
-        console.log('获取焦点回调函数',e)
+    getfocus(e) {
+        console.log('获取焦点回调函数', e)
 
     },
     /**

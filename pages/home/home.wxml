@@ -1,8 +1,8 @@
 <!--index.wxml-->
 <view class="container">
-    <!-- <block class="nav-wrap">
-        <navBar title='首页' background='#fff' back="{{false}}" home="{{false}}"></navBar>
-    </block> -->
+    <block class="nav-wrap">
+        <navBar title='小黄人' background='#e0fa4c' back="{{false}}" home="{{false}}"></navBar>
+    </block>
     <view class="top-wrap">
         <topBar tab-data="{{categoryMenu}}" tab-cur="{{categoryCur}}" size="{{80}}" scroll="{{true}}"
             bindchange="toggleCategory">
