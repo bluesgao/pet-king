@@ -10,7 +10,11 @@ Component({
         clearFlag: {//是否显示clear按钮
             type: Boolean,
             value: false,
-        }
+        },
+        backgroundColor: {//背景色
+            type: String,
+            value: 'rgba(255, 255, 255, 1)'
+        },
     },
 
     /**

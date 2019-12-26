@@ -1,6 +1,6 @@
 <view class='container'>
-  <navBar title='搜索' background='#fff' back="{{true}}" home="{{true}}" bindback="goBack" bindhome="goHome"></navBar>
-  <searchBar content="{{searchContent}}"></searchBar>
+  <navBar title='搜索' background='#e0fa4c' back="{{true}}" home="{{true}}" bindback="goBack" bindhome="goHome"></navBar>
+  <searchBar backgroundColor='#e0fa4c' content="{{searchContent}}"></searchBar>
   <view class='main'>
     <view class='p'>搜索页面</view>
   </view>

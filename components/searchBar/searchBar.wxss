@@ -1,8 +1,8 @@
 /*搜索 开始*/
 .search-bar-container{
   width: calc( 100% - 0);
-  background: #fff;
-  height: 60rpx;
+  background:#e0fa4c;
+  height: 90rpx;
   padding:20rpx 20rpx;
   display: flex;
   align-items: center;
