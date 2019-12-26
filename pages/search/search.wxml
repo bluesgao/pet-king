@@ -1,7 +1,31 @@
 <view class='container'>
-  <navBar title='搜索' background='#e0fa4c' back="{{true}}" home="{{true}}" bindback="goBack" bindhome="goHome"></navBar>
-  <searchBar backgroundColor='#e0fa4c' content="{{searchContent}}"></searchBar>
-  <view class='main'>
-    <view class='p'>搜索页面</view>
-  </view>
+    <navBar title='搜索' background='#e0fa4c' back="{{true}}" home="{{true}}" bindback="goBack" bindhome="goHome"></navBar>
+    <searchBar backgroundColor='#e0fa4c' content="{{searchContent}}"></searchBar>
+    <!-- 搜索提示 -->
+    <view class='search-tip-container'>
+        <!-- 热门 -->
+        <block wx:if="{{hotList}}">
+            <view class='search-tip-container-hot'>
+                <view>
+                    <text>热门</text>
+                </view>
+                <view wx:for="{{hotList}}">
+                    <text>{{index+1}}</text>
+                    <text>{{item}}</text>
+                </view>
+            </view>
+        </block>
+        <!-- 历史 -->
+        <block wx:if="{{histList}}">
+            <view class='search-tip-container-hist'>
+                <view>
+                    <text>历史</text>
+                </view>
+                <view wx:for="{{histList}}">
+                    <text>{{index+1}}</text>
+                    <text>{{item}}</text>
+                </view>
+            </view>
+        </block>
+    </view>
 </view>
