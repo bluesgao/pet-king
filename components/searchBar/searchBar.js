@@ -11,14 +11,12 @@ Component({
             type: Boolean,
             value: false,
         }
-
     },
 
     /**
      * 组件的初始数据
      */
     data: {
-        // searchflag: false,   //搜索框 取消按钮显示与隐藏
     },
 
     /**
@@ -54,7 +52,7 @@ Component({
                     clearFlag: false,
                 })
             }
-            this.triggerEvent("searchList", e);
+            //this.triggerEvent("searchList", e);
         },
         //查询
         confirm(e) {
@@ -71,7 +69,7 @@ Component({
             })
             console.info('清空搜索框后 content', this.data.content)
 
-            this.triggerEvent("clearSearch");
+            //this.triggerEvent("clearSearch");
         },
         // 取消
         // cancel() {
