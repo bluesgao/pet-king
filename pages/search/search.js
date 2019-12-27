@@ -5,8 +5,8 @@ Page({
      * 页面的初始数据
      */
     data: {
-        hotList:["王思冲","pgone","李小璐","做头发","夜宿门","离婚"],
-        histList: ["王思冲111", "王思冲222", "王思冲333"]
+        hotList:["王思冲11111111","pgoneweqweqwewqeqweqweqweqweqw","李小璐","做头发","夜宿门","离婚"],
+      histList: ["王思冲111", "王思冲222"]
     },
     goBack() {
         //返回上一页
@@ -43,27 +43,34 @@ Page({
     },
     //搜索回调
     endsearchList(e) {
-        console.log('搜索框回调函数')
+        console.info('搜索框回调函数')
     },
     // 取消搜索
     cancelSearch() {
-        console.log('取消搜索回调函数')
-
+        console.info('取消搜索回调函数')
         this.setData({
             searchstr: ''
         })
     },
     //清空搜索框
     clearSearch(e) {
-        console.log('清空搜索框回调函数')
-
+        console.info('清空搜索框回调函数')
         this.setData({
             searchstr: ''
         })
     },
     getfocus(e) {
-        console.log('获取焦点回调函数', e)
-
+        console.info('获取焦点回调函数', e)
+    },
+    refresh(){
+        console.info('热门搜索刷新')
+    },
+    clearHist(){
+        console.info('搜索历史清除前',this.data.histList)
+        this.setData({
+            histList: ''
+        })
+        console.info('搜索历史清除后', this.data.histList)
     },
     /**
      * 生命周期函数--监听页面加载

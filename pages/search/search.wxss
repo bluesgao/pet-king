@@ -1,1 +1,70 @@
 /* pages/search/index.wxss */
+/* 页面全屏 */
+page{
+  width: 100%;
+  height: 100%;
+  background:rgb(255, 255, 255);
+}
+
+.container{
+    width:100%;
+    height:100%;
+}
+.search-hint-container{
+    display: flex;
+    /* 纵向布局 */
+    flex-direction: column;
+    align-items: center;
+    /* padding: 20rpx; */
+}
+
+.search-hint-container-card{
+    width:100%;
+    /* 两个参数，第一个用于上、下，第二个用于左、右
+     四个参数，将按上、右、下、左的顺序作用于四边*/
+       margin: 0rpx 0rpx 10rpx 0rpx;
+       /*两个参数，表示上下都是5px，左右都是0px
+       四个参数，表示上5px，右 4px，下3px，左2px*/
+       padding: 0rpx 0 20rpx 0;
+       background:rgb(255, 255, 255);
+
+}
+
+.search-hint-container-card-header{
+    width:calc(100%-40rpx);
+   margin: 20rpx;
+   display: flex;
+   /**row 横向  column 列表*/
+    flex-direction: row;
+    /* 两端对齐 */
+    justify-content: space-between;
+    /* 上下居中 */
+    align-items: center;
+}
+.search-hint-container-card-header-title{
+    font-size: 28rpx;
+    font-weight: bold;
+}
+
+.search-hint-container-card-header-action{
+    font-size: 24rpx;
+    color: rgb(87, 68, 68);
+}
+
+.search-hint-container-card-item{
+    width:auto;
+    height:48rpx;
+    background:rgb(245, 245, 245);
+    border-radius:30rpx;
+    padding: 5rpx 15rpx;
+    font-weight:300;
+    color:rgb(0, 0, 0);
+    float:left;
+    margin:10rpx;
+}
+
+.search-hint-container-card-spliter{
+    width:100%;
+    height: 10rpx;
+    background:rgb(245, 245, 245);
+}

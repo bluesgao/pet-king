@@ -1,8 +1,8 @@
 {
   "pages": [
+    "pages/search/search",
     "pages/home/home",
-    "pages/user/user",
-    "pages/search/search"
+    "pages/user/user"
   ],
   "window": {
     "backgroundTextStyle": "light",
